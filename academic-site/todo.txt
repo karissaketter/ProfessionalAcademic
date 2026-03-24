@@ -1,0 +1,16 @@
+make mobile friendly
+
+full screen looks good:
+
+
+mid screen:
+- about screen make head shot smaller so text occupies more of the screen, rn its 1/2, 1/2, make it like 1/3, 2/3 like reserach
+- reserach make list on right more towards the left closer to the vertical bar separator
+
+
+phone screen size (iphone xr for testing initally):
+- header is too to the left, on the right sides its cut off. it should be centered
+- the hero image is too vertical, crop the photo so it doesnt take whole space
+- about IM NOT SURE WHAT but the headshot takes a full page, maybe have text wrap around photo
+- research, the list seems weird below, but maybe its fine.
+- awards section the image shouldnt take up that much vertical space, and when scrolling all the way down, the bottom of the text escapes the image
