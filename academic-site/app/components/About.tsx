@@ -49,9 +49,16 @@ const About = () => {
             <p>
               Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples.
               Born in Metro Vancouver, she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
-              <span style={altStyle}>
-                q̓ic̓əy̓ (Katzie), q̓ʷɑ:n̓ƛ̓ən̓ (Kwantlen), Máthkwi (Matsqui), se'mya'me (Semiahmoo), xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), səlilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt)
-              </span>{" "}
+              <span style={altStyle}>q̓ic̓əy̓</span>{" "}
+                 (Katzie), <span style={altStyle}>q̓ʷɑ:n̓ƛ̓ən̓</span>{" "}
+                (Kwantlen), <span style={altStyle}>Máthkwi</span>{" "}
+                (Matsqui), <span style={altStyle}>se'mya'me</span>{" "}
+                (Semiahmoo), <span style={altStyle}>xʷməθkʷəy̓əm</span>{" "}
+                (Musqueam), <span style={altStyle}>Sḵwx̱wú7mesh</span>{" "}
+                (Squamish), <span style={altStyle}>səlilwətaɬ</span>{" "}
+                (Tsleil-Waututh), and <span style={altStyle}>shíshálh</span>{" "}
+                (Sechelt)
+              
               First Nations.
             </p>
           </div>
@@ -81,11 +88,18 @@ const About = () => {
               In September 2026, Karissa will join the Department of Sociology at the University of Toronto to begin her PhD program.
             </p>
             <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
-              Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples. Born in Metro Vancouver,
-              she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
-              <span style={altStyle}>
-                q̓ic̓əy̓ (Katzie), q̓ʷɑ:n̓ƛ̓ən̓ (Kwantlen), Máthkwi (Matsqui), se'mya'me (Semiahmoo), xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), səlilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt)
-              </span>{" "}
+              Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples.
+              Born in Metro Vancouver, she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
+              <span style={altStyle}>q̓ic̓əy̓</span>{" "}
+                 (Katzie), <span style={altStyle}>q̓ʷɑ:n̓ƛ̓ən̓</span>{" "}
+                (Kwantlen), <span style={altStyle}>Máthkwi</span>{" "}
+                (Matsqui), <span style={altStyle}>se'mya'me</span>{" "}
+                (Semiahmoo), <span style={altStyle}>xʷməθkʷəy̓əm</span>{" "}
+                (Musqueam), <span style={altStyle}>Sḵwx̱wú7mesh</span>{" "}
+                (Squamish), <span style={altStyle}>səlilwətaɬ</span>{" "}
+                (Tsleil-Waututh), and <span style={altStyle}>shíshálh</span>{" "}
+                (Sechelt)
+              
               First Nations.
             </p>
           </div>

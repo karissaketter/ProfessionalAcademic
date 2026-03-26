@@ -1,5 +1,0 @@
-
-awards:
-list extends past image when scrolled down
-
-change font to support indigenous text

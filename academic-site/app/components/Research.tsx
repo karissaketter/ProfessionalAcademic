@@ -3,9 +3,9 @@
 import { Colours } from "../Colours";
 
 const researchItems = [
-  "B.A., Simon Fraser University, International Studies",
-  "M.A., University of British Columbia, Sociology",
-  "Ph.D., University of Toronto, Sociology",
+  "B.A., Simon Fraser University, International Studies, 2024",
+  "M.A., University of British Columbia, Sociology, 2026",
+  "Ph.D., University of Toronto, Sociology, ongoing",
 ];
 
 const Research = () => {

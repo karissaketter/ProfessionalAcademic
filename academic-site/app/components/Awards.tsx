@@ -27,10 +27,7 @@ const Awards = () => {
     const onScroll = () => {
       const sectionRect = section.getBoundingClientRect();
       const viewportH = window.innerHeight;
-      const stickyH = viewportH * 0.85; // matches h-[85vh] below
-
-      // How far the user has scrolled into the sticky zone
-      // 0 = section just entered viewport, 1 = section fully scrolled past
+      const stickyH = viewportH * 0.85;
       const scrollableDistance = section.offsetHeight - stickyH;
       const scrolledIn = Math.max(0, -sectionRect.top);
       const progress = Math.min(scrolledIn / scrollableDistance, 1);
