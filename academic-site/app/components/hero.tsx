@@ -37,7 +37,7 @@ const Hero = () => {
               color: "#E8DDD0",
             }}
           >
-            Urban Sociology · MA Research
+           MA student, urban sociology
           </span>
 
           <h1
@@ -64,7 +64,7 @@ const Hero = () => {
               color: "#E8DDD0",
             }}
           >
-            MA student, urban sociologist
+            University of British Columbia
           </p>
         </div>
       </div>

@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { Colours } from "../Colours";
 
+const altStyle = { fontFamily: "var(--font-noto-sans), sans-serif" };
+
 const About = () => {
   return (
     <section
@@ -14,12 +16,11 @@ const About = () => {
 
         <div className="flex flex-col gap-3">
           <h2 className="text-3xl font-semibold tracking-tight" style={{ color: Colours.colour2 }}>
-            About
+            About Me
           </h2>
           <div className="w-full h-px" style={{ backgroundColor: Colours.colour1 }} />
         </div>
 
-        {/* Mobile: image floated right so it doesn't overlap the left border */}
         <div className="block md:hidden">
           <div className="float-right ml-4 mb-4 w-[160px] h-[200px] rounded-md overflow-hidden relative flex-shrink-0">
             <Image
@@ -38,16 +39,25 @@ const About = () => {
             }}
           >
             <p className="mb-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Karissa is a master's student in the department of sociology at the University of British Columbia. Her research interests include global digital surveillance
+              technologies and housing infrastructure. She is currently researching historical planning and lending policy in Vancouver, Canada and London, England.
             </p>
             <p>
-              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. lilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt) First Nations.
+              In September 2026, Karissa will join the Department of Sociology at the University of Toronto to begin her PhD program.
+            </p>
+            <br />
+            <p>
+              Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples.
+              Born in Metro Vancouver, she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
+              <span style={altStyle}>
+                q̓ic̓əy̓ (Katzie), q̓ʷɑ:n̓ƛ̓ən̓ (Kwantlen), Máthkwi (Matsqui), se'mya'me (Semiahmoo), xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), səlilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt)
+              </span>{" "}
+              First Nations.
             </p>
           </div>
           <div className="clear-both" />
         </div>
 
-        {/* md+: 1/3 image, 2/3 text */}
         <div className="hidden md:grid md:grid-cols-3 gap-16 items-start">
           <div className="relative w-full h-[520px] lg:h-[640px] rounded-md overflow-hidden">
             <Image
@@ -64,10 +74,19 @@ const About = () => {
             style={{ borderLeft: `4px solid ${Colours.colour4}` }}
           >
             <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Karissa is a master's student in the department of sociology at the University of British Columbia. Her research interests include global digital surveillance
+              technologies and housing infrastructure. She is currently researching historical planning and lending policy in Vancouver, Canada and London, England.
             </p>
             <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. lilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt) First Nations.
+              In September 2026, Karissa will join the Department of Sociology at the University of Toronto to begin her PhD program.
+            </p>
+            <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
+              Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples. Born in Metro Vancouver,
+              she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
+              <span style={altStyle}>
+                q̓ic̓əy̓ (Katzie), q̓ʷɑ:n̓ƛ̓ən̓ (Kwantlen), Máthkwi (Matsqui), se'mya'me (Semiahmoo), xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), səlilwətaɬ (Tsleil-Waututh), and shíshálh (Sechelt)
+              </span>{" "}
+              First Nations.
             </p>
           </div>
         </div>
