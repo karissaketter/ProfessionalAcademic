@@ -17,17 +17,17 @@ const geistMono = Geist_Mono({
 const dmMono = localFont({
   src: [
     {
-      path: "./fonts/DM_MONO/DMMono-Regular.ttf",
+      path: "./fonts/DM_Mono/DMMono-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/DM_MONO/DMMono-Italic.ttf",
+      path: "./fonts/DM_Mono/DMMono-Italic.ttf",
       weight: "400",
       style: "italic",
     },
     {
-      path: "./fonts/DM_MONO/DMMono-Medium.ttf",
+      path: "./fonts/DM_Mono/DMMono-Medium.ttf",
       weight: "500",
       style: "normal",
     },
