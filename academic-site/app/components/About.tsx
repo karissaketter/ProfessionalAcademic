@@ -24,7 +24,7 @@ const About = () => {
         <div className="block md:hidden">
           <div className="float-right ml-4 mb-4 w-[160px] h-[200px] rounded-md overflow-hidden relative flex-shrink-0">
             <Image
-              src="/headShot.jpg"
+              src="/imageheadShot.jpg"
               alt="Headshot"
               fill
               className="object-cover"
