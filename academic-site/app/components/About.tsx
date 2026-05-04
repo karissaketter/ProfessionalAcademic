@@ -66,9 +66,9 @@ const About = () => {
         </div>
 
         <div className="hidden md:grid md:grid-cols-3 gap-16 items-start">
-          <div className="relative w-full h-[520px] lg:h-[640px] rounded-md overflow-hidden">
+          <div className="relative w-full h-[320px] lg:h-[480px] rounded-md overflow-hidden">
             <Image
-              src="/headShot.jpg"
+              src="/imageheadShot.jpg"
               alt="Headshot"
               fill
               className="object-cover"
