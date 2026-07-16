@@ -5,6 +5,11 @@ import { Colours } from "../Colours";
 
 const publications = [
    {
+    title: "Capital Over Cash [Presentation]",
+    description: "Ketter, K. (2026, June 13). Capital Over Cash. Canadian Sociological Association Conference. Halifax, Nova Scotia.",
+    href: "",
+  },
+   {
     title: "Superdiversity in Vancouver, Canada",
     description: "Ketter, K. (2026). Superdiversity in Vancouver, Canada: Mapping Vancouver's Diversity. The Infrastructure and Integration Lab",
     href: "https://isquaredlab.ca/research-themes/",
