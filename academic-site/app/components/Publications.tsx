@@ -4,14 +4,19 @@ import Link from "next/link";
 import { Colours } from "../Colours";
 
 const publications = [
+   {
+    title: "Superdiversity in Vancouver, Canada",
+    description: "Ketter, K. (2026). Superdiversity in Vancouver, Canada: Mapping Vancouver's Diversity. The Infrastructure and Integration Lab",
+    href: "https://isquaredlab.ca/research-themes/",
+  },
   {
-    title: "Ketter, K., & Byler, D. (2025)",
-    description: "Subordinated Inclusion: Population Sorting Technologies as Digital Confinement in the United States, China, and Israel. Surveillance & Society, 23(4), 398–413. ",
+    title: "Subordinated Inclusion: Population Sorting Technologies as Digital Confinement",
+    description: "Ketter, K., & Byler, D. (2025). Subordinated Inclusion: Population Sorting Technologies as Digital Confinement in the United States, China, and Israel. Surveillance & Society, 23(4), 398–413. ",
     href: "https://doi.org/10.24908/ss.v23i4.18233",
   },
   {
-    title: "Byler, D., & Ketter, K. (2024, January 25)",
-    description: "On the Travel of State Crimes by Algorithm: Chinese Camera Systems in Israel. Made in China Journal",
+    title: "On the Travel of State Crimes by Algorithm",
+    description: "Byler, D., & Ketter, K. (2024, January 25). On the Travel of State Crimes by Algorithm: Chinese Camera Systems in Israel. Made in China Journal",
     href: "https://madeinchinajournal.com/2024/01/25/on-the-travel-of-state-crimes-by-algorithm-chinese-camera-systems-in-israel/",
   },
 ];
