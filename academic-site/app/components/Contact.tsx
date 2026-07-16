@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-          <p style={{ color: "#F7F3ED" }}>Email: karissa.ketter@ubc.ca</p>
+          <p style={{ color: "#F7F3ED" }}>Email: karissa.ketter@mail.utoronto.ca</p>
           <p style={{ color: "#F7F3ED" }}>Vancouver, Canada</p>
         </div>
 
