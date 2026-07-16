@@ -39,16 +39,13 @@ const About = () => {
             }}
           >
             <p className="mb-4">
-              Karissa is a master's student in the department of sociology at the University of British Columbia. Her research interests include global digital surveillance
-              technologies and housing infrastructure. She is currently researching historical planning and lending policy in Vancouver, Canada and London, England.
-            </p>
-            <p>
-              In September 2026, Karissa will join the Department of Sociology at the University of Toronto to begin her PhD program.
+              Karissa is a PhD student in the department of sociology at the University of Toronto. Her research interests include global digital surveillance
+              technologies and housing infrastructure. During her MA at the University of British Columbia, she was researching historical planning and lending policy in Vancouver, Canada and London, England.
             </p>
             <br />
             <p>
               Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples.
-              Born in Metro Vancouver, she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
+              Born in Metro Vancouver, she was raised on the ancestral territory of the{" "}
               <span style={altStyle}>q̓ic̓əy̓</span>{" "}
                  (Katzie), <span style={altStyle}>q̓ʷɑ:n̓ƛ̓ən̓</span>{" "}
                 (Kwantlen), <span style={altStyle}>Máthkwi</span>{" "}
@@ -59,7 +56,7 @@ const About = () => {
                 (Tsleil-Waututh), and <span style={altStyle}>shíshálh</span>{" "}
                 (Sechelt)
               
-              First Nations.
+              First Nations.As she strives to be a good ally through word and action, she respectfully remembers that the Coast Salish People have been on this land for millennia.
             </p>
           </div>
           <div className="clear-both" />
@@ -81,15 +78,12 @@ const About = () => {
             style={{ borderLeft: `4px solid ${Colours.colour4}` }}
           >
             <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
-              Karissa is a master's student in the department of sociology at the University of British Columbia. Her research interests include global digital surveillance
-              technologies and housing infrastructure. She is currently researching historical planning and lending policy in Vancouver, Canada and London, England.
-            </p>
-            <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
-              In September 2026, Karissa will join the Department of Sociology at the University of Toronto to begin her PhD program.
+              Karissa is a PhD student in the department of sociology at the University of Toronto. Her research interests include global digital surveillance
+              technologies and housing infrastructure. During her MA at the University of British Columbia, she was researching historical planning and lending policy in Vancouver, Canada and London, England.
             </p>
             <p className="text-sm leading-relaxed" style={{ color: Colours.colour2 }}>
               Karissa acknowledges she is a settler living on the unceded territories and traditional lands of the Coast Salish peoples.
-              Born in Metro Vancouver, she resides in Vancouver, Langley, and on the Sunshine Coast. Specifically, on the ancestral terrority of the{" "}
+              Born in Metro Vancouver, she was raised on the ancestral territory of the{" "}
               <span style={altStyle}>q̓ic̓əy̓</span>{" "}
                  (Katzie), <span style={altStyle}>q̓ʷɑ:n̓ƛ̓ən̓</span>{" "}
                 (Kwantlen), <span style={altStyle}>Máthkwi</span>{" "}
@@ -100,7 +94,7 @@ const About = () => {
                 (Tsleil-Waututh), and <span style={altStyle}>shíshálh</span>{" "}
                 (Sechelt)
               
-              First Nations.
+              First Nations. As she strives to be a good ally through word and action, she respectfully remembers that the Coast Salish People have been on this land for millennia.
             </p>
           </div>
         </div>
